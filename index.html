@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 
 <head>
-	<title>Teste Frontend VAGAS.com</title>
+	<title>Teste Frontend - Airton Jr</title>
 	<meta charset="UTF-8" />
 	<link rel="stylesheet" href="./styles.css">
 </head>
@@ -16,10 +16,11 @@
 		<form class="form">
 			<div class="fieldset">
 				<div class="label">Quais stickers:</div>
-				<div class="check"><input type="checkbox" value="React"/> React</div>
-				<div class="check"><input type="checkbox" value="Vue" /> Vue</div>
-				<div class="check"><input type="checkbox" value="Angular" /> Angular</div>
+				<div class="check"><input type="checkbox" id="React" value="React"/> React</div>
+				<div class="check"><input type="checkbox" id="Vue" value="Vue" /> Vue</div>
+				<div class="check"><input type="checkbox" id="Angular" value="Angular" /> Angular</div>
 			</div>
+			<div id="checkboxErrorMessage" class="error-message"></div>
 			<div class="space-md"></div>
 			<div class="fieldset">
 				<div class="label">Quantos stickers de cada?</div>
@@ -34,7 +35,7 @@
 			<div class="fieldset">
 				<div class="label">Observações:</div>
 				<div class="space"></div>
-				<textarea name="descricao" placeholder="Alguma dúvida? Recado?"></textarea>
+				<textarea name="descricao" id="descricao" placeholder="Alguma dúvida? Recado?"></textarea>
 			</div>
 			<div class="space-md"></div>
 			<div class="footer">

@@ -220,7 +220,7 @@ input:checked::before {
 
   .error{
     background-color: var(--cor-error);
-    border: 1px solid var(--cor-error-border);;
+    border: 2px solid var(--cor-error-border);;
   }
 
   .error-message{
@@ -232,4 +232,5 @@ input:checked::before {
   .sucesso{
     color: var(--cor-sucesso);
     display: none;
+    margin: 0.5rem 6rem 0 0;
   }
